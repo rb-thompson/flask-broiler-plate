@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!--
+            [ ] Link: static/css/style.css
+            [ ] Script: static/Scripts.js
+            [ ] Define base template: templates/base.html
+    -->
+
+</head>
+<body>
+    <nav>{% block navbar %}{% endblock %}</nav>
+    <main>{% block content %}{% endblock %}</main>
+    <footer>{% block footer %}{% endblock %}</footer>
+
+    <script src="{{ url_for('static', filename='css/Scripts.js') }}"></script>
+</body>
+</html>

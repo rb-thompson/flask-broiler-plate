@@ -1,0 +1,15 @@
+# Common ignore cases 
+
+# Databases
+*.db 
+
+# Logs
+*.log 
+log/ 
+
+# Flask
+instance/
+
+# Environments
+/.env
+/venv
