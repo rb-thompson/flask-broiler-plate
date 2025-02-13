@@ -13,11 +13,11 @@ Key Principles:
 ## Getting Started
 
 1. Create and activate python virtual environment:
-```python
+```
 python -m venv venv
 ```
 
-```python
+```
 venv\Scripts\activate
 ```
 
@@ -28,11 +28,11 @@ venv\Scripts\activate
 3. Create entry point: New file `app.py`
 
 4. Include project packages: 
-```python
+```
 py -m pip install -r requirements.txt
 ```
 AND
-```python
+```
 pip freeze > requirements.txt
 ```
 
